@@ -1,0 +1,11 @@
+char someChar = 'q';
+if (someChar >= 'a' && someChar <= 'z'){
+	someChar -= 32;
+
+}else{
+	
+	if (someChar >= 'A' && someChar <= 'Z'){
+	someChar += 32;
+	}
+	
+}
